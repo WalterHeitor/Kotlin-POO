@@ -1,4 +1,4 @@
-import Alura.Conta
+import Alura.conta.Conta
 
 fun testaComportamentoDaConta() {
     println("Ola mundo!!!")
