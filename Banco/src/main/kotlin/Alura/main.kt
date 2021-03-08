@@ -1,12 +1,16 @@
 package Alura
 
-import Alura.Funcionario.*
-import Alura.teste.testaFuncionarios
+import Alura.teste.testaContasdiferentes
 
 fun main() {
 
-    testaFuncionarios()
+    testaContasdiferentes()
+
+
+
 }
+
+
 
 
 

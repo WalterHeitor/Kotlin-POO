@@ -3,18 +3,18 @@ package Alura.conta
 /**
  *
  */
-class Conta(
+open class Conta(
     val titular: String,
     val numero: Int
 ) {
     var saldo = 0.0
         private set
 
-    fun deposita(valor: Double) {
+    open fun deposita(valor: Double) {
         if (valor > 0) this.saldo += valor
     }
 
-    fun saca(valor: Double) {
+    open fun saca(valor: Double) {
         if (valor <= saldo) this.saldo -= valor
     }
 
