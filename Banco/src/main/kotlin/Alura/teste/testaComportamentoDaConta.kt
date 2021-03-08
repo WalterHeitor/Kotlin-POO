@@ -1,9 +1,11 @@
 import Alura.conta.Conta
+import Alura.conta.ContaCorrente
+import Alura.conta.ContaPoupanca
 
 fun testaComportamentoDaConta() {
     println("Ola mundo!!!")
-    val contaWalter = Conta("Walter Heitor", 1000)
-    val contaMaria = Conta("Maria Clara", 1002)
+    val contaWalter = ContaCorrente("Walter Heitor", 1000)
+    val contaMaria = ContaPoupanca("Maria Clara", 1002)
     contaMaria.deposita(-200.0)
     println("salto ${contaMaria.saldo}")
     contaWalter.deposita(205.53)
