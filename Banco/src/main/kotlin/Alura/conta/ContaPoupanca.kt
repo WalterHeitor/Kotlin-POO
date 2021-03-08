@@ -1,7 +1,9 @@
 package Alura.conta
 
+import Alura.cliente.Cliente
+
 class ContaPoupanca(
-    titular: String,
+    titular: Cliente,
     numero: Int,
 ) : Conta(
     titular = titular,
